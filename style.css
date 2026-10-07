@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    
 }
 header{
     position: relative;
@@ -69,10 +70,25 @@ header nav ul li a:hover {
     color: #ffffff;
 }
 .menu a:hover {
-    background-color: #E0DACB;
-    color: #355E3B;
+    background-color: #355E3B;
+    color: #D9A441;
 }
-
+div.about-section {
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #E0DACB;
+}
+div.about-section h1 {
+    font-size: 36px;
+    color: #355E3B;
+    margin-bottom: 20px;
+}
+div.about-section p {
+    font-size: 18px;
+    color: #355E3B;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
 footer  {
     position: fixed;
     bottom: 0;
@@ -88,6 +104,7 @@ footer  {
     padding: 20px;
 }
 footer{
+    margin-top: 80px;
     position: relative;
     z-index: 100;
 }
@@ -96,20 +113,69 @@ div.container {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    
+    background-image: url('view.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100%; 
+    width: 100%;
+    height:auto;
 }
 div.content-text {
-    font-size: 20px;
+    max-width: 600px;
+    padding: 10px 20px;
+}
+div.content-text h1 {
+    font-size: 36px;
     color: #355E3B;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 100%;
+    margin-bottom: 20px;
+}
+div.content-text p {
+    font-size: 18px;
+    color: #355E3B;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}  
+.history {
+    color: #355E3B;
+    text-align: center;
+}
+.history-link{
+    display: flexbox;
+    padding: 10px 10px;
+    background-color: #D9A441;
+    border: 1px solid #355E3B;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    width:15rem;
+}
+.history a:hover{
+    background-color: #355E3B;
+    color: #D9A441;
+}
+
+.p_rodact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #D9A441;
+    border: 1px solid #355E3B;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.p_rodact:hover {
+    background-color: #355E3B;
+    color: #D9A441;
 }
 div.buttons {
     display: flex;
     justify-content: flex-start;
-    padding: 10px 20px;
-    gap: 15px;
-    margin-top: 15px; 
+    margin: 50px;
+    gap: 15px; 
+   
 }
 div.img-container {
     display: flex;
@@ -121,13 +187,13 @@ div.img-container {
     height: auto;
     border-radius: 20px;
 }
-/* <=========prouct=========> */
 .products {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 .product {
+    margin-top: 120px;
     background-color: white;
     width: 250px;
     padding: 8px;
