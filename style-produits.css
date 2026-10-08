@@ -83,6 +83,11 @@ div.about-section h1 {
     color: #355E3B;
     margin-bottom: 20px;
 }
+div.about-section h3{
+    font-size: 36px;
+    color: #D9A441;
+    margin-bottom: 20px;
+}
 div.about-section p {
     font-size: 18px;
     color: #355E3B;
@@ -115,7 +120,7 @@ div.container_1 {
 
     padding: 10px 20px;
 
-    background-image: url('view2.png');
+    background-image: url('view\ natural.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -129,12 +134,12 @@ div.content-text {
 }
 div.content-text h1 {
     font-size: 36px;
-    color: #E0DACB;
+    color:#D9A441;
     margin-bottom: 20px;
 }
 div.content-text p {
     font-size: 18px;
-    color: #E0DACB;
+    color: #ffffff;
     line-height: 1.6;
     margin-bottom: 20px;
 }  
