@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E0DACB;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D9A441;
+    color: #355E3B;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+header{
+    position: relative;
+    z-index: 100;
+}
+
+.hero img {
+    position: relative;
+    z-index: 10;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 150px;
+    height: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #355E3B;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.menu a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #D9A441;
+    border: 1px solid #355E3B;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu a:hover {
+    background-color: #355E3B;
+    color: #D9A441;
+}
+div.about-section {
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #E0DACB;
+}
+div.about-section h1 {
+    font-size: 36px;
+    color: #355E3B;
+    margin-bottom: 20px;
+}
+div.about-section p {
+    font-size: 18px;
+    color: #355E3B;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+footer  {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D9A441;
+    color: #355E3B;
+    padding: 15px 0;
+    display: flex;
+    padding: 30px 40px;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 20px;
+}
+footer{
+    margin-top: 80px;
+    position: relative;
+    z-index: 100;
+}
+div.container_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 20px;
+
+    background-image: url('view2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    width: 100%;
+    height: auto;
+}
+div.content-text {
+    max-width: 600px;
+    padding: 10px 20px;
+}
+div.content-text h1 {
+    font-size: 36px;
+    color: #E0DACB;
+    margin-bottom: 20px;
+}
+div.content-text p {
+    font-size: 18px;
+    color: #E0DACB;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}  
+.history {
+    color: #355E3B;
+    text-align: center;
+}
+.history-link{
+    display: flexbox;
+    padding: 10px 10px;
+    background-color: #D9A441;
+    border: 1px solid #355E3B;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #ffffff;
+    width:15rem;
+}
+.history a:hover{
+    background-color: #355E3B;
+    color: #D9A441;
+}
+
+.p_rodact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #D9A441;
+    border: 1px solid #355E3B;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.p_rodact:hover {
+    background-color: #355E3B;
+    color: #D9A441;
+}
+div.buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin: 50px;
+    gap: 15px; 
+   
+}
+div.img-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+.img-container img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.product {
+    margin-top: 120px;
+    background-color: white;
+    width: 250px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+     border-radius: 8px;
+}
+
+.product h2 {
+    margin-top: 15px;
+}
+
+.product p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.product h3 {
+    margin: 15px 0;
+}
+
+.product button {
+    background-color: #355E3B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #D9A441;
+}
